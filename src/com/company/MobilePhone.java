@@ -12,7 +12,7 @@ public class MobilePhone {
     }
 
     public boolean addNewContact(Contact contact) {
-        if (findContact(contact.getName() >= 0))  {
+        if (findContact(contact.getName()) >= 0)  {
             System.out.println("Contact is already in your contacts list.");
             return false;
         }
